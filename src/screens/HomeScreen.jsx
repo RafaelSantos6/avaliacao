@@ -4,7 +4,7 @@ export const HomeScreen = ({navigation}) =>{
     return (
         <View style={styles.container}>
 
-            <Text>Hello World</Text>
+            <Text>Olá Seja Bem-Vindo</Text>
             <Button title="Navegar"
             onPress={()=>navigation.navigate("Sobre")}/>
         </View>
