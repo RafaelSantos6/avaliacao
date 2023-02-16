@@ -5,12 +5,12 @@ import { styles } from "../lib/style";
 
 
 export function SobreScreen() {
-  const [nome, setNome] = useState("Fulano");
-  const [altura, setAltura] = useState("1,75");
-  const [peso, setPeso] = useState("110");
+  const [nome, setNome] = useState("");
+  const [altura, setAltura] = useState("");
+  const [peso, setPeso] = useState("");
   return (
     <View style={styles.container}>
-      <Text>Hi {nome}!</Text>
+      <Text>Preencha o Formulario</Text>
       <TextInput label="Nome" value={nome} onChangeText={setNome} />
       <Text>Digite sua Altura</Text>
       <TextInput

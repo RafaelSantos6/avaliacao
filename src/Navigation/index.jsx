@@ -9,10 +9,12 @@ const Tab = createBottomTabNavigator();
 export const RootNavigation = () => {
     return (
         <Tab.Navigator>
-            <Tab.Screen name={"Home"} component={HomeScreen}  />
+            <Tab.Screen name={"Home"} component={HomeScreen}/>
             <Tab.Screen name={"Sobre"} component={SobreScreen} />
             <Tab.Screen name={"Local"} component={Local} />
-            <Tab.Screen name={"Configuracao"}  component={Configuracao} />
+            <Tab.Screen name={"Configuracao"}  component={Configuracao} co />
         </Tab.Navigator>
+        
+        
     );
 };
