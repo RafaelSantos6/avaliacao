@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import { TextInput } from "react-native-paper";
 import { styles } from "../lib/style";
 
+// Fausto Lindo
 
 export function SobreScreen() {
   const [nome, setNome] = useState("");
@@ -11,7 +12,7 @@ export function SobreScreen() {
   return (
     <View style={styles.container}>
       <Text>Preencha o Formulario</Text>
-      <TextInput label="Nome" value={nome} onChangeText={setNome} />
+      <TextInput label="Nome" value={nome}/>
       <Text>Digite sua Altura</Text>
       <TextInput
         label="Altura"
