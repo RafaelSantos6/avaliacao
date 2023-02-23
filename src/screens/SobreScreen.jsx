@@ -12,7 +12,8 @@ export function SobreScreen() {
   return (
     <View style={styles.container}>
       <Text>Preencha o Formulario</Text>
-      <TextInput label="Nome" value={nome}/>
+      <TextInput label="Nome" value={nome}
+        onChangeText={setNome} />
       <Text>Digite sua Altura</Text>
       <TextInput
         label="Altura"
